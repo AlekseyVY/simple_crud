@@ -1,0 +1,33 @@
+{
+  "name": "simple_crud",
+  "version": "1.0.0",
+  "description": "Simple Crud Application",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --esm src/index.ts",
+    "prod": "webpack --mode production && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseyVY/simple_crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlekseyVY/simple_crud/issues"
+  },
+  "homepage": "https://github.com/AlekseyVY/simple_crud#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3",
+    "webpack-cli": "^4.10.0"
+  }
+}
